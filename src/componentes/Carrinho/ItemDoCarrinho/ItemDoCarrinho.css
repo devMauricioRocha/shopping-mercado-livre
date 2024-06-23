@@ -1,0 +1,64 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/close-r.css');
+
+.item {
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.212);
+    margin-bottom: 10px;
+    align-items: flex-start;
+    position: relative;
+}
+
+.item:last-child {
+    border-bottom: none;
+}
+
+.remover {
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    background: none;
+    border: none;
+    width: 22px;
+    height: 22px;
+}
+
+.gg-close-r {
+    color: #f08b8b;
+}
+
+.gg-close-r:hover {
+    background-color: rgba(255, 0, 0, 0.336);
+    color: black;
+}
+
+.gg-close-r::after,
+.gg-close-r::before {
+    left: 3.2px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info .titulo {
+    font-size: 10px;
+    padding-right: 21px;
+}
+
+.info .preco {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.imgProduto {
+    width: 70px;
+    padding-right: 10px;
+}
+
+.infoPreco {
+    display: flex;
+    justify-content: space-between;
+}

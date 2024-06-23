@@ -1,0 +1,17 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/spinner.css');
+
+.load {
+    width: 100%;
+    margin: 90px 0px 0px
+}
+
+.gg-spinner {
+    transform: scale(1.5);
+    margin: 0 auto;
+}
+
+.gg-spinner::before {
+    animation: spinner 0.3s linear infinite;
+    border: 3px solid transparent;
+    border-top-color: currentColor;
+}

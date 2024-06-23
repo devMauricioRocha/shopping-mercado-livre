@@ -1,0 +1,32 @@
+.cartCarrinho {
+    width: 100%;
+    max-width: 330px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: white;
+    padding: 90px 20px 0px;
+    transform: translateX(100%);
+    transition: 0.4s;
+    background-color: #fbfbfb;
+    border-left: 1px solid #9490908f;
+
+}
+
+.itens {
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.aparecerCarrinho {
+    transform: translateX(0);
+}
+
+.total {
+    border-top: 1px solid rgba(0, 0, 0, 0.301);
+    padding: 30px 0 25px;
+}

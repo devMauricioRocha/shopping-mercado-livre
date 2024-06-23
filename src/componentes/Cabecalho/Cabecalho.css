@@ -1,0 +1,21 @@
+.header {
+    background-color: #ffe600;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+header>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 10px;
+}

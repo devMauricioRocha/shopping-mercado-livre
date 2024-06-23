@@ -1,0 +1,28 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/search.css');
+
+.barra-pesquisa {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 1px 2px #00000026;
+}
+
+#inputPesquisa {
+    padding: 7px;
+    flex-grow: 1;
+    outline: none;
+    border: none;
+    border-right: 1px solid #00000026;
+    padding: 13px;
+}
+
+#btnPesquisa {
+    height: 42px;
+    padding: 0 20px;
+}
+
+#btnPesquisa:hover {
+    background-color: rgba(120, 121, 122, 0.075);
+}
