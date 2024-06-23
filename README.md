@@ -1,5 +1,5 @@
 
-# Projeto de Busca de Produtos - Mercado Livre API
+# Projeto de Busca de Produtos com React - Mercado Livre API
 
 Este projeto em React utiliza a API do Mercado Livre para buscar e exibir produtos com base em uma pesquisa do usuário. Ele inclui funcionalidades para buscar itens, exibir detalhes dos produtos e gerenciar um carrinho de compras.
 
